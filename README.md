@@ -1,7 +1,7 @@
-<h1 align="center">⚡ JavaSortingAlgorithms</h1>
+<h1 align="center">⚡ Java Sorting Algorithms</h1>
 <p align="center">
   <b>Implementasi Algoritma Sorting di Java</b><br>
-  <sub>Quick Sort, Selection Sort, dan Menu Interaktif</sub>
+  <sub>Quick Sort, Selection Sort</sub>
 </p>
 
 <div align="center">
@@ -19,18 +19,17 @@
 **JavaSortingAlgorithms** adalah repositori berisi implementasi beberapa algoritma pengurutan data di Java, termasuk:
 - **Quick Sort** – Algoritma pengurutan divide-and-conquer yang efisien.
 - **Selection Sort** – Algoritma sederhana berbasis pemilihan elemen minimum.
-- **Menu Interaktif** (`main.java`) – Antarmuka CLI untuk memilih algoritma dan menjalankan pengurutan.
+- **Main** (`main.java`) – Algoritma untuk menjalankan pengurutan.
 
 ---
 
 ## 📂 Struktur Proyek
 
 ```
-JavaSortingAlgorithms/
+Jawa/
 ├── quick.java      # Implementasi Quick Sort
 ├── select.java     # Implementasi Selection Sort
-├── main.java       # Menu utama untuk menjalankan sorting
-└── README.md       # Dokumentasi proyek
+└── main.java       # Menu utama untuk menjalankan sorting
 ```
 
 ---
@@ -39,36 +38,6 @@ JavaSortingAlgorithms/
 
 - Java 17+
 - IDE atau terminal berbasis Java (IntelliJ, Eclipse, VS Code, atau command line)
-
----
-
-## 🚀 Cara Menjalankan
-
-1️⃣ **Kompilasi semua file Java**
-```bash
-javac main.java quick.java select.java
-```
-
-2️⃣ **Jalankan program**
-```bash
-java main
-```
-
-> Program akan meminta input array dan pilihan algoritma untuk pengurutan.
-
----
-
-## 📌 Contoh Output
-
-```
-Masukkan jumlah elemen: 5
-Masukkan elemen: 64 34 25 12 22
-Pilih algoritma:
-1. Quick Sort
-2. Selection Sort
-Pilihan: 1
-Hasil pengurutan: 12 22 25 34 64
-```
 
 ---
 
